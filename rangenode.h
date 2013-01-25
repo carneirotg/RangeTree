@@ -7,7 +7,7 @@ class RangeNode
 {
 public:
     ~RangeNode();
-    RangeNode(std::string nome, int x , int y);
+    RangeNode(std::string,int,int);
     void setNome(std::string);
     void setX(int);
     void setY(int);
