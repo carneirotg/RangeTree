@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Interface Luana</string>
+   <string>Range Tree</string>
   </property>
   <property name="windowIcon">
    <iconset>
@@ -30,7 +30,7 @@
      <x>0</x>
      <y>0</y>
      <width>663</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArvore">

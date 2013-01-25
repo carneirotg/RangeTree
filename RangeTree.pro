@@ -11,8 +11,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    rangenode.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    rangenode.h
 
 FORMS    += mainwindow.ui
