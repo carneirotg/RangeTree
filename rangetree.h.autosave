@@ -1,0 +1,21 @@
+#ifndef RANGETREE_H
+#define RANGETREE_H
+
+#include "rangenode.h"
+
+class RangeTree
+{
+public:
+    RangeTree();
+
+    void insertNode(RangeNode*);
+    void removeNode(RangeNode*);
+    std::list getMainList();
+
+private:
+    std::list <RangeNode> mainList;
+
+    void createList();
+};
+
+#endif // RANGETREE_H

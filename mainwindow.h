@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "rangetree.h"
 
 namespace Ui {
 class MainWindow;
@@ -27,6 +28,8 @@ private slots:
     
 private:
     Ui::MainWindow *ui;
+    RangeTree mainRangeTree;
+    void clearInserirBox();
 };
 
 #endif // MAINWINDOW_H

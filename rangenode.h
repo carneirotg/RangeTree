@@ -2,6 +2,7 @@
 #define RANGENODE_H
 
 #include <string>
+#include <iostream>
 
 class RangeNode
 {

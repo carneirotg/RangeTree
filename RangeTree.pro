@@ -10,11 +10,13 @@ TARGET = RangeTree
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    rangenode.cpp
+SOURCES +=  main.cpp\
+            mainwindow.cpp \
+            rangenode.cpp \
+            rangetree.cpp
 
 HEADERS  += mainwindow.h \
-    rangenode.h
+            rangenode.h \
+            rangetree.h
 
 FORMS    += mainwindow.ui
